@@ -1,15 +1,8 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vite.dev/config/
 export default defineConfig({
+  base: "./", // Ensures relative paths work in production
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      output: {
-        entryFileNames: "assets/index.js",
-        chunkFileNames: "assets/[name].js",
-        assetFileNames: "assets/[name].[ext]" // No hash in CSS files
-      },
-    },
-  },
 });
