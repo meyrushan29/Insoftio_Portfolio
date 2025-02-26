@@ -23,9 +23,9 @@ const Services = () => {
         <h3 className="text-center text-xl font-medium mb-6">
           Our Services and Solutions
         </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Service Card 1: Web Application Development */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+          <div className="bg-white p-6 border-[#0d1a2b] border-2 rounded-lg  hover:shadow-lg transition-all duration-300 hover:border-2 hover:border-[#FF5A5F]">
             <div className="mb-4">
               <FaLaptopCode className="w-16 h-16 mx-auto text-[#FF5A5F]" />
             </div>
@@ -34,7 +34,7 @@ const Services = () => {
           </div>
 
           {/* Service Card 2: Web Hosting */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+          <div className="bg-white p-6 border-[#0d1a2b] border-2 rounded-lg  hover:shadow-lg transition-all duration-300 hover:border-2 hover:border-[#FF5A5F]">
             <div className="mb-4">
               <FaServer className="w-16 h-16 mx-auto text-[#FF5A5F]" />
             </div>
@@ -43,7 +43,7 @@ const Services = () => {
           </div>
 
           {/* Service Card 3: Mobile App Development */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+          <div className="bg-white p-6 border-[#0d1a2b] border-2 rounded-lg  hover:shadow-lg transition-all duration-300 hover:border-2 hover:border-[#FF5A5F]">
             <div className="mb-4">
               <FaMobileAlt className="w-16 h-16 mx-auto text-[#FF5A5F]" />
             </div>
@@ -52,7 +52,7 @@ const Services = () => {
           </div>
 
           {/* Service Card 4: Penetration Testing */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+          <div className="bg-white p-6 border-[#0d1a2b] border-2 rounded-lg  hover:shadow-lg transition-all duration-300 hover:border-2 hover:border-[#FF5A5F]">
             <div className="mb-4">
               <FaShieldAlt className="w-16 h-16 mx-auto text-[#FF5A5F]" />
             </div>
@@ -61,7 +61,14 @@ const Services = () => {
           </div>
 
           {/* Service Card 5: Application Security Assessment */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+          <div className="bg-white p-6 border-[#0d1a2b] border-2 rounded-lg  hover:shadow-lg transition-all duration-300 hover:border-2 hover:border-[#FF5A5F]">
+            <div className="mb-4">
+              <FaLock className="w-16 h-16 mx-auto text-[#FF5A5F]" />
+            </div>
+            <h4 className="text-xl font-semibold mb-2">Application Security Assessment</h4>
+            <p className="text-sm text-gray-600">Your IT With Our Experience</p>
+          </div>
+          <div className="bg-white p-6 border-[#0d1a2b] border-2 rounded-lg  hover:shadow-lg transition-all duration-300 hover:border-2 hover:border-[#FF5A5F]">
             <div className="mb-4">
               <FaLock className="w-16 h-16 mx-auto text-[#FF5A5F]" />
             </div>
