@@ -1,5 +1,5 @@
 import { FaLaptopCode, FaServer, FaMobileAlt, FaShieldAlt, FaLock } from "react-icons/fa"; // Importing relevant icons
-import bannerImg from '../assets/Service.png';  // Replace with your correct path to the image
+import bannerImg from "../assets/Service.png"  // Replace with your correct path to the image
 
 const Services = () => {
   return (
