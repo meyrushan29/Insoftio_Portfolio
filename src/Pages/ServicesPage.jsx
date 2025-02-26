@@ -72,7 +72,7 @@ const Services = () => {
             <div className="mb-4">
               <FaLock className="w-16 h-16 mx-auto text-[#FF5A5F]" />
             </div>
-            <h4 className="text-xl font-semibold mb-2">Application Security Assessment</h4>
+            <h4 className="text-xl font-semibold mb-2">Risk Management Assessment</h4>
             <p className="text-sm text-gray-600">Your IT With Our Experience</p>
           </div>
         </div>
