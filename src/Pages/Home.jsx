@@ -9,30 +9,30 @@ import {
 
 const ServicePage = () => {
   const stats = [
-    { number: "200+", label: "Projects Completed", icon: "📊" },
-    { number: "150+", label: "Happy Clients", icon: "😊" },
-    { number: "10+", label: "Years of Experience", icon: "🏆" },
+    { number: "200+", label: "Projects Completed", icon: "🔧" },
+    { number: "150+", label: "Happy Clients", icon: "🤝" },
+    { number: "10+", label: "Years of Experience", icon: "⏳" },
   ];
 
   const services = [
     {
       name: "Web Application Development",
-      icon: <FaLaptopCode className="mx-auto mb-4 h-16 w-16 text-blue-500" />,
+      icon: <FaLaptopCode className="mx-auto mb-4 h-16 w-16 text-[#FF5A5F]" />,
       description: "We build dynamic and scalable web applications with seamless user experiences.",
     },
     {
       name: "Web Hosting",
-      icon: <FaServer className="mx-auto mb-4 h-16 w-16 text-green-500" />,
+      icon: <FaServer className="mx-auto mb-4 h-16 w-16 text-[#0f52ba]" />,
       description: "Reliable and secure hosting services to ensure your business stays online 24/7.",
     },
     {
       name: "Mobile App Development",
-      icon: <FaMobileAlt className="mx-auto mb-4 h-16 w-16 text-orange-500" />,
+      icon: <FaMobileAlt className="mx-auto mb-4 h-16 w-16 text-[#8abbe3]" />,
       description: "Intuitive mobile apps for iOS and Android to engage your customers on-the-go.",
     },
     {
       name: "Penetration Testing",
-      icon: <FaShieldAlt className="mx-auto mb-4 h-16 w-16 text-red-500" />,
+      icon: <FaShieldAlt className="mx-auto mb-4 h-16 w-16 text-[#ff5a60]" />,
       description: "Identify vulnerabilities in your system with our security-focused penetration testing services.",
     },
   ];
@@ -91,7 +91,7 @@ const ServicePage = () => {
         {services.map((service, index) => (
           <motion.div
             key={index}
-            className="bg-white shadow p-6 text-center rounded-lg hover:shadow-lg transition-all duration-300 hover:border-2 hover:border-red-500"
+            className="bg-white shadow p-6 text-center border-[#0d1a2b] border-2 rounded-lg  hover:shadow-lg transition-all duration-300 hover:border-2 hover:border-[#FF5A5F]"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -112,7 +112,7 @@ const ServicePage = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="mb-16"
+          className="mb-4"
         >
           <h2 className="text-3xl font-bold text-[#FF5A5F] mb-6">OUR IMPACT</h2>
         </motion.div>
@@ -122,7 +122,7 @@ const ServicePage = () => {
           {stats.map((stat, index) => (
             <motion.div
               key={index}
-              className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 transform"
+              className="bg-white p-8 border-[#0d1a2b] border-2 rounded-lg  hover:shadow-lg transition-all duration-300 hover:border-2 hover:border-[#FF5A5F]"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
@@ -131,7 +131,7 @@ const ServicePage = () => {
               <div className="flex flex-col items-center">
                 <span className="text-4xl mb-4">{stat.icon}</span>
                 <motion.h3
-                  className="text-5xl font-bold text-red-500 mb-3"
+                  className="text-5xl font-bold text-[#0f52ba] mb-3"
                   initial={{ scale: 0.8 }}
                   animate={{ scale: 1 }}
                   transition={{
