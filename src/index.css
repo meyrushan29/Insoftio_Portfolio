@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Monomakh&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family: 'Monomakh', serif; /* Fixed fallback */
-}
+
 
