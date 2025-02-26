@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import Footer from "./Components/Footer";
 import { Navbar } from "./Components/Navbar";
 import Home from "./Pages/Banner";
 import ContactUs from "./Pages/ContactUs";
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import Services from "./Pages/ServicesPage";
 
 
