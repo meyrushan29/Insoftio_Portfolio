@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col min-h-screen">
     {/* Newsletter Section */}
-    <div className="bg-[#0d1a2b] text-white justify-between py-8 px-10">
+    <div className="bg-[#0d1a2b] text-white justify-between py-8 px-10 ">
       <div className="max-w-6xl mx-auto">
         <p className="text-sm font-medium mb-1">Newsletters</p>
         <h2 className="text-xl font-bold mb-4">Get Our Every Single Notification</h2>
@@ -32,13 +32,10 @@ const Footer = () => {
         {/* Logo and Company Description */}
         <div className="md:col-span-1 mr-2">
           <img src={Logo} className="size-20" alt="" />
-          <p className="text-sm md:text-base mb-6">
+          <p className="text-sm md:text-base mb-6 mr-12">
             We are a leading IT solutions provider, delivering cutting-edge technology, software development, and digital transformation services. Our expertise spans web and mobile development, cloud computing, cybersecurity, and AI-driven solutions. Partner with us to drive innovation, efficiency, and business growth. Contact us today to discuss how we can help you succeed in the digital era.
           </p>
-          
-          <p className="text-sm md:text-base">
-            Let me know if you'd like it customized based on your company's specific focus! 🚀
-          </p>
+
         </div>
 
         {/* Services */}
@@ -79,7 +76,7 @@ const Footer = () => {
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
               </svg>
-              <span>+1(949) 810 8181</span>
+              <span>+94(77) 630 9171</span>
             </li>
           </ul>
         </div>
@@ -88,9 +85,9 @@ const Footer = () => {
 
     {/* Footer */}
     <div className="bg-gray-900 text-white py-4 px-4 border-t border-gray-800">
-      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center text-sm">
+      <div className="max-w-6xl mx-auto  flex-col sm:flex-row justify-between items-center text-sm">
         <p>Powered by Insoftio</p>
-        <p>@2024 All rights reserved.</p>
+        <p className=" text-center">@2024 All rights reserved.</p>
       </div>
     </div>
   </div>

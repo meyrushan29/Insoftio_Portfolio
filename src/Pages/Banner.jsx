@@ -19,7 +19,7 @@ const Home = () => {
             className="text-3xl md:text-6xl font-bold mb-4"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 1.5 }}
+            transition={{ duration: 1, delay: 2.5 }}
           >
             <div className="text-[#FF5A5F]">Welcome to Insoftio Innovation Pvt.Ltd</div>
           </motion.h1>
@@ -29,7 +29,7 @@ const Home = () => {
             className="text-base md:text-2xl mb-6"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 1.5 }}
+            transition={{ duration: 1, delay: 2.5 }}
           >
             Empowering innovation and excellence.
             <br /> Explore our platform to discover seamless solutions designed just for you
